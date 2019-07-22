@@ -1,0 +1,3 @@
+This is the file that is going to be opened in python
+i am a good boy
+aniket is a bad boy
