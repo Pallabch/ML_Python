@@ -1,8 +1,0 @@
-digraph Tree {
-node [shape=box] ;
-0 [label="petalwidth <= 0.7\nentropy = 1.585\nsamples = 120\nvalue = [41, 39, 40]\nclass = Iris-setosa"] ;
-1 [label="entropy = 0.0\nsamples = 41\nvalue = [41, 0, 0]\nclass = Iris-setosa"] ;
-0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
-2 [label="entropy = 1.0\nsamples = 79\nvalue = [0, 39, 40]\nclass = Iris-virginica"] ;
-0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
-}
