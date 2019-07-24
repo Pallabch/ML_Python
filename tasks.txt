@@ -1,0 +1,23 @@
+open data set using notepad ++/sublime text 
+	find out separatator(, : ; " ')
+	find out column names having multiple words (first name/fn)
+	open file in pandas
+ 	if required change format using python file handling and print  	in panda understandable format
+
+open file in pandas(read_csv)
+	find out structure of the file
+	find total records
+	find how many numeric column
+	within numeric are they discrete
+	how many string columns and value_counts() for them 
+	find out any NaN and decide what to do???(NaN percentage)
+	for continuous find five no. statistics 
+	if classification provlem what you need to acheive 	(accuracy,precision,recall)
+	find out which columns in target/response/dependent/y column?
+	
+	create a model maybe logistic regression by taking all X
+	do analysis whether each X(after dropping ome obvious X) is
+	influencing y or not (use plot(pyplot/seaborn)
+		correlation between all continuous X
+		all continuous must follow normal distribution or not		(sns.distplot)
+    
